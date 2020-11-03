@@ -5,7 +5,7 @@ import pymongo
 from bson.objectid import ObjectId   
 
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+myclient = pymongo.MongoClient("mongodb+srv://nadia:nadia@mongodb.zayuw.mongodb.net/TBot?retryWrites=true&w=majority")
 mydb = myclient['TBot']
 mycol = mydb["tugas"]
 
